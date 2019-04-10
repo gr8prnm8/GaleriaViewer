@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ea7a44-93e3-4037-bc8e-c10c36a313e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/main_window.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/model/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/model/content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/model/content_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/model/tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GaleriaViewer/view/layout/mainwindow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev_tools/save_pip_setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev_tools/update_layout.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev_tools/update_project.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/layout_ui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/layout_ui/mainwindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GaleriaViewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GaleriaViewer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/controller/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnails_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GaleriaViewer/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout_ui/main_thumbnails_list.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/layout_ui/thumbnail.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaleriaViewer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaleriaViewer/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaleriaViewer/menu/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaleriaViewer/menu/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaleriaViewer/model/content.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaleriaViewer/model/content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaleriaViewer/model/tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaleriaViewer/model/tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaleriaViewer/view/layout/mainwindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/layout_ui/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaleriaViewer/controller/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/layout_ui/mainwindow.ui" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,59 +27,109 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GaleriaViewer$Unnamed.coverage" NAME="Main Coverage Results" MODIFIED="1554434232018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GaleriaViewer$Main.coverage" NAME="Main Coverage Results" MODIFIED="1554921948652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1192087653">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="echo" value="1" />
+          <entry key="jpeg" value="1" />
+          <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="39" />
-          <entry key="sh" value="7" />
+          <entry key="py" value="56" />
+          <entry key="sh" value="8" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="7" />
+          <entry key="Bash" value="8" />
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="39" />
+          <entry key="Python" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="LICENSE" value="35" />
-          <entry key="dummy" value="5" />
-          <entry key="py" value="2487" />
+          <entry key="dummy" value="30" />
+          <entry key="json" value="4" />
+          <entry key="py" value="5656" />
           <entry key="sh" value="97" />
+          <entry key="txt" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Bash" value="97" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="2487" />
+          <entry key="JSON" value="4" />
+          <entry key="PLAIN_TEXT" value="202" />
+          <entry key="Python" value="5656" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="e#745#766#0" expanded="true" />
+                <marker date="1554917745792" expanded="true" signature="1364:1370" ph="..." />
+                <marker date="1554917745792" expanded="true" signature="1408:1413" ph="..." />
+                <marker date="1554917745792" expanded="true" signature="1408:1513" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+              <folding>
+                <element signature="e#745#797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnails_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding>
+                <element signature="e#745#774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GaleriaViewer/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="210">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="e#0#743#1" />
                 <element signature="e#745#755#0" expanded="true" />
@@ -93,12 +139,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/main_window.py">
+        <entry file="file://$PROJECT_DIR$/GaleriaViewer/controller/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="45" column="101" selection-start-line="45" selection-start-column="101" selection-end-line="45" selection-end-column="101" />
               <folding>
-                <element signature="e#745#784#0" expanded="true" />
+                <element signature="e#746#761#0" expanded="true" />
+                <marker date="1554917451993" expanded="true" signature="1088:1169" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,9 +164,11 @@
     <findStrings>
       <find>nulla</find>
       <find>Galeria</find>
+      <find>self.t_list</find>
     </findStrings>
     <replaceStrings>
       <replace>RudEin</replace>
+      <replace>self.layout()</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -147,12 +196,27 @@
         <option value="$PROJECT_DIR$/dev_tools/update_layout.sh" />
         <option value="$PROJECT_DIR$/GaleriaViewer/model/__init__.py" />
         <option value="$PROJECT_DIR$/GaleriaViewer/model/base.py" />
-        <option value="$PROJECT_DIR$/GaleriaViewer/model/content.py" />
         <option value="$PROJECT_DIR$/GaleriaViewer/model/content_tag.py" />
-        <option value="$PROJECT_DIR$/GaleriaViewer/model/tag.py" />
         <option value="$PROJECT_DIR$/GaleriaViewer/__init__.py" />
         <option value="$PROJECT_DIR$/resources/layout_ui/__init__.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/model/content.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/model/tag.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/button.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/image_thumb.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list/thumb_list.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/settings.json" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/image_thumb.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/settings.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/database.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/thumbnail.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/thumb_list_page.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/main.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/thumb_list.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/thumbnail_list.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page/thumbnails_list.py" />
         <option value="$PROJECT_DIR$/GaleriaViewer/menu/main_window.py" />
+        <option value="$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/main.py" />
         <option value="$PROJECT_DIR$/GaleriaViewer/app.py" />
       </list>
     </option>
@@ -164,10 +228,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2151" />
-    <option name="y" value="15" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="2259" />
+    <option name="y" value="45" />
+    <option name="width" value="1390" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,6 +262,11 @@
             <path>
               <item name="GaleriaViewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="dev_tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaleriaViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
               <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,6 +274,24 @@
               <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
               <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
               <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaleriaViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbnails_list_page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaleriaViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GaleriaViewer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GaleriaViewer" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="layout_ui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,10 +308,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GaleriaViewer/controller" />
+      <recent name="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GaleriaViewer/menu/thumb_list_page" />
+      <recent name="$PROJECT_DIR$/GaleriaViewer/menu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,17 +381,25 @@
       <option name="presentableId" value="Default" />
       <updated>1554420427671</updated>
     </task>
+    <task id="LOCAL-00001" summary="Setup of app structure&#10;-created MCV setup&#10;-created simple models&#10;-created main app window&#10;-added license">
+      <created>1554434529228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554434529228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18303095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18943436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3137255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -324,6 +424,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup of app structure&#10;-created MCV setup&#10;-created simple models&#10;-created main app window&#10;-added license" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup of app structure&#10;-created MCV setup&#10;-created simple models&#10;-created main app window&#10;-added license" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -333,30 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/database/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/echo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/database/Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/database/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/echo" />
+    <entry file="file://$PROJECT_DIR$/model/Model.py" />
+    <entry file="file://$PROJECT_DIR$/controller/database/Database.py" />
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -370,13 +454,7 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev_tools/update_resources.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev_tools/update_resources.sh" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -384,20 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GaleriaViewer/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev_tools/update_layout.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/test.py" />
     <entry file="file://$PROJECT_DIR$/dev_tools/update_project.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -426,41 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-            <marker date="1554432498149" expanded="true" signature="948:953" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/content_tag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GaleriaViewer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/tag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,23 +504,134 @@
     <entry file="file://$PROJECT_DIR$/GaleriaViewer/view/layout/mainwindow.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/layout_ui/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/resources/layout_ui/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/content_tag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/tag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnails_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1102334920/PyQt5/QtCore/QObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/model/content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <marker date="1554579825073" expanded="true" signature="948:953" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014">
+          <caret line="3139" column="8" selection-start-line="3139" selection-start-column="8" selection-end-line="3139" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Obrazy/Images/0acf8d3bb271fe566cc33045a7117343 (1).jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <marker date="1554916824586" expanded="true" signature="868:869" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#745#766#0" expanded="true" />
+            <marker date="1554917745792" expanded="true" signature="1364:1370" ph="..." />
+            <marker date="1554917745792" expanded="true" signature="1408:1413" ph="..." />
+            <marker date="1554917745792" expanded="true" signature="1408:1513" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev_tools/update_layout.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/main_window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/controller/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="45" column="101" selection-start-line="45" selection-start-column="101" selection-end-line="45" selection-end-column="101" />
           <folding>
-            <element signature="e#745#784#0" expanded="true" />
+            <element signature="e#746#761#0" expanded="true" />
+            <marker date="1554917451993" expanded="true" signature="1088:1169" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/thumbnails_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#745#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaleriaViewer/menu/thumbnails_list_page/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="e#745#797#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GaleriaViewer/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="210">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="e#0#743#1" />
             <element signature="e#745#755#0" expanded="true" />

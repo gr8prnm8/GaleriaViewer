@@ -19,26 +19,26 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 import sys
+
 from PyQt5 import QtWidgets
-from PyQt5.QtCore import Qt
-
-from sqlalchemy import create_engine
-from GaleriaViewer.model import base, content, tag, content_tag
-from GaleriaViewer.menu.main_window import MainWindow
-
-engine = create_engine('sqlite:///:memory:', echo=True)
-
-base.Base.metadata.create_all(engine)
+from GaleriaViewer.menu.thumbnails_list_page.main import Main
+from GaleriaViewer.menu.thumbnails_list_page.thumbnails_list import ThumbnailsList
+import GaleriaViewer.controller.database as db
 
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
 
-    window = MainWindow()
+    window = Main()
     window.setWindowTitle("GaleriaViewer")
+
     window.show()
 
     sys.exit(app.exec_())
+
+
+db.setup()
+db.test()
 
 
 if __name__ == '__main__':

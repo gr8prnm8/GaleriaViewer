@@ -18,26 +18,15 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-from sqlalchemy import Column, Integer, DateTime, Text, ForeignKey
-from sqlalchemy.orm import relationship
-from GaleriaViewer.model.base import Base
-from GaleriaViewer.model import content_tag
+from PyQt5.QtWidgets import QMainWindow, QScrollArea
+from GaleriaViewer.view.layout.main_thumbnails_list import Ui_MainWindow
+from GaleriaViewer.menu.thumbnails_list_page.thumbnails_list import ThumbnailsList
 
 
-class Tag(Base):
-    """Model for all tags stored in database"""
-    __tablename__ = 'tag'
+class Main(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
 
-    id = Column(Integer, primary_key=True)
-    name = Column(Text)
-
-    time_of_add = Column(DateTime)
-    time_of_last_modification = Column(DateTime)
-
-    thumbnail_id = Column(Integer, ForeignKey('content.id'))
-    thumbnail = relationship('Content')
-
-    contents = relationship('Content',
-                            secondary='content_tag',
-                            back_populates='tags'
-                            )
+        self.centralWidget().findChild(QScrollArea, 'mainScrollArea').setWidget(ThumbnailsList())

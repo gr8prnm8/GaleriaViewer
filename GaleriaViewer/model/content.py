@@ -33,14 +33,15 @@ class Content(Base):
     time_of_add = Column(DateTime)
     time_of_last_modification = Column(DateTime)
 
-    url = Column(Text)
-    original_source = Column(Text)
+    url = Column(Text, unique=True)
+    original_source = Column(Text, nullable=True)
+    file_type = Column(Text)
 
     rate = Column(Integer, nullable=True)
 
     thumbnail_url = Column(Text, nullable=True)
 
     tags = relationship('Tag',
-                        secondary=content_tag,
+                        secondary='content_tag',
                         back_populates='contents'
                         )

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'resources/layout_ui/mainwindow.ui'
+# Form implementation generated from reading ui file 'resources/layout_ui/main_thumbnails_list.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.3
 #
@@ -14,6 +14,16 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
+        self.gridLayout.setObjectName("gridLayout")
+        self.mainScrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.mainScrollArea.setWidgetResizable(True)
+        self.mainScrollArea.setObjectName("mainScrollArea")
+        self.scrollAreaWidgetContents = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 780, 536))
+        self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
+        self.mainScrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.gridLayout.addWidget(self.mainScrollArea, 0, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))

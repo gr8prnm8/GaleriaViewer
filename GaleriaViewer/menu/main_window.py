@@ -19,12 +19,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 from PyQt5.QtWidgets import QMainWindow
-from GaleriaViewer.view.layout.mainwindow import Ui_MainWindow
 
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
