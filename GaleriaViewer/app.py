@@ -22,7 +22,6 @@ import sys
 
 from PyQt5 import QtWidgets
 from GaleriaViewer.menu.thumbnails_list_page.main import Main
-from GaleriaViewer.menu.thumbnails_list_page.thumbnails_list import ThumbnailsList
 import GaleriaViewer.controller.database as db
 
 

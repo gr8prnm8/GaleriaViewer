@@ -21,6 +21,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 from PyQt5.QtWidgets import QMainWindow, QScrollArea
 from GaleriaViewer.view.layout.main_thumbnails_list import Ui_MainWindow
 from GaleriaViewer.menu.thumbnails_list_page.thumbnails_list import ThumbnailsList
+from GaleriaViewer.menu.thumbnails_list_page.pages_list import PagesListDock
+import PyQt5.Qt as Qt
 
 
 class Main(QMainWindow):
@@ -30,3 +32,4 @@ class Main(QMainWindow):
         self.ui.setupUi(self)
 
         self.centralWidget().findChild(QScrollArea, 'mainScrollArea').setWidget(ThumbnailsList())
+        self.addDockWidget(Qt.Qt.BottomDockWidgetArea, PagesListDock())

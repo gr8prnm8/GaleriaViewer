@@ -43,7 +43,7 @@ def test():
     session = get_session()
     c1 = content.Content(time_of_add=datetime.datetime.now(), url='file:///home/einrud/Obrazy/Images/01.jpeg', file_type='jpg')
     c2 = content.Content(time_of_add=datetime.datetime.now(), url='file:///home/einrud/Obrazy/Images/01-1.jpeg', file_type='png')
-    c3 = content.Content(time_of_add=datetime.datetime.now(), url='file:///home/einrud/Obrazy/Images/1 (1).jpg', file_type='jpg')
+    c3 = content.Content(time_of_add=datetime.datetime.now(), url='file:///home/einrud/Obrazy/Images/0e9044beb43d61a9b8a4c689829fec1e527521cd.png', file_type='jpg')
     t1 = tag.Tag(name='tag1')
     t2 = tag.Tag(name='tag2')
     t3 = tag.Tag(name='tag3')
